@@ -1,0 +1,45 @@
+version: 2
+
+sources:
+  - name: aw
+    description: Banco de daos da AW
+    schema: sap_adw
+    tables:
+      - name: address
+        
+
+
+      - name: countryregion
+        
+
+
+      - name: creditcard
+        
+
+
+      - name: customer
+        
+
+
+      - name: person
+        
+
+
+      - name: product
+        
+
+
+      - name: salesorderdetail
+
+
+      - name: salesorderheader
+
+
+      - name: salesorderheadersalesreason
+
+
+      - name: salesreason
+
+
+      - name: stateprovince
+
