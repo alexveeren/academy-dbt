@@ -2,10 +2,10 @@ with
     source_address as(
         select
             addressid as id_address
+            , stateprovinceid as id_stateprovince
             , addressline1
             , addressline2
             , city
-            , stateprovinceid as id_stateprovince
             , postalcode
             , spatiallocation
             , rowguid

@@ -6,14 +6,33 @@ sources:
     schema: sap_adw
     tables:
       - name: address
+        description: Table will connect the information from stateprovince and countryregion on salesorderheader
+        columns:
+          - name: id_address
+            description: Primary key of addresses
+            test:
+            - unique
+            - not_null
+          - name: id_stateprovince
+            description: Foreing key from stateprovince table
+            
         
 
 
       - name: countryregion
-        
+        description: Table with Primary key of countries
+        columns:
+          - name: countryregioncode
+            description: Primary key of countryregion.
+            test:
+            - unique
+            - not_null
+          - name: country_name
+            description: Name of the country
 
 
       - name: creditcard
+        description: A
         
 
 

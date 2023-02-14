@@ -2,7 +2,7 @@ with
     source_salesorderheader as(
         select
             salesorderid as id_salesorder
-            , customerid as id_custumer
+            , customerid as id_customer
             , salespersonid as id_salesperson
             , territoryid as id_territory
             , billtoaddressid as id_billtoaddress
