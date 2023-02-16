@@ -36,9 +36,9 @@ models:
     
     # Applies to all files under models/staging/
     staging:
-      +materialized: view
+      +materialized: table
 
-    masts:
+    marts:
       +materialized: table
 
 

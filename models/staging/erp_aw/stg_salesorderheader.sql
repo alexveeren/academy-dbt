@@ -2,7 +2,7 @@ with
     source_salesorderheader as(
         select
             salesorderid as id_salesorder
-            , customerid as id_custumer
+            , customerid as id_customer
             , salespersonid as id_salesperson
             , territoryid as id_territory
             , billtoaddressid as id_billtoaddress
@@ -10,9 +10,9 @@ with
             , shipmethodid as id_shipmethod
             , creditcardid as id_creditcard
             , currencyrateid as id_currencyrate
-            , orderdate
-            , duedate
-            , shipdate
+            , cast(orderdate as datetime) as orderdate
+            , cast(duedate as datetime) as duedate
+            , cast(shipdate as datetime) as shipdate
             , revisionnumber
             , status
             , onlineorderflag

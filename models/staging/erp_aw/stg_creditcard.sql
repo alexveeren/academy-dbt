@@ -1,7 +1,7 @@
 with
     source_creditcard as(
         select
-            creditcardid as id_creditcardid
+            creditcardid as id_creditcard
             , cardtype
             , cardnumber
             , expmonth

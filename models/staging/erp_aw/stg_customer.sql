@@ -1,7 +1,7 @@
 with
     source_customer as(
         select
-            customerid as id_custumer
+            customerid as id_customer
             , personid as id_person
             , storeid as id_store
             , territoryid id_territory

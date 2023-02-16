@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: fct_salesorder
+    columns:
+      - name: sk_salesorder
+        description: Primary key of fact table
+        tests:
+          - unique
+          - not_null

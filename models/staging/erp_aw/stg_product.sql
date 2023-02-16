@@ -1,7 +1,7 @@
 with
     source_product as(
         select
-            productid as ip_product
+            productid as id_product
             , productsubcategoryid as id_productsubcategory
             , productmodelid as id_productmodel
             , name as productname
