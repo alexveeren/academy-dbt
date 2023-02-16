@@ -10,9 +10,9 @@ with
             , shipmethodid as id_shipmethod
             , creditcardid as id_creditcard
             , currencyrateid as id_currencyrate
-            , orderdate
-            , duedate
-            , shipdate
+            , cast(orderdate as datetime) as orderdate
+            , cast(duedate as datetime) as duedate
+            , cast(shipdate as datetime) as shipdate
             , revisionnumber
             , status
             , onlineorderflag

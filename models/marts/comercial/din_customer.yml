@@ -8,4 +8,10 @@ models:
         tests:
           - unique
           - not_null
+
+      - name: firstname
+        description: First customer name
+        test:
+          - not_null
+          
           

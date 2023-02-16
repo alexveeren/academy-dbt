@@ -38,7 +38,7 @@ models:
     staging:
       +materialized: table
 
-    masts:
+    marts:
       +materialized: table
 
 

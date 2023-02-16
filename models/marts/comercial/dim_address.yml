@@ -4,7 +4,8 @@ models:
   - name: dim_address
     columns:
       - name: sk_address
-        description: The primary key of the redion
+        description: The primary key of address
         tests:
           - unique
           - not_null
+      
